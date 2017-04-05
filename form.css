@@ -1,0 +1,118 @@
+.register{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 30px;
+	box-shadow: 10px,10px,10px,10px black;
+}
+
+.register h1{
+	text-align: center;
+	color: #004D40;
+	text-shadow: 0 0 10px white;
+}
+
+body{
+	background-color: #00897B;
+}
+
+.BasicDetails  input[type=text],.contact input[type=text],input[type=email],input[type=date],input[type=number], select {
+	width: 25%;
+	padding: 12px 20px;
+	margin: 6px;
+	display: inline-block !important;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.BasicDetails input[type=radio]{
+	width: 10px;
+	padding: 5;
+	margin: 8px;
+	height: 10px;
+}
+
+.BasicDetails label, .contact label{
+	margin:10px ;
+	display: inline;
+	font-size: 18px;
+	color: white;
+}
+
+legend{
+	font-family: arial;
+	font-size: 20px;
+	color: #00695C;
+}
+
+.BasicDetails, .contact{
+	background-color: #48C9B0  ;
+	padding: 3px;
+	margin-bottom: 10px; 
+	box-shadow: 0px 0px 20px black;
+}
+input [type=radio]:not(old){
+	width: 2em;
+	font-size: 1em;
+}
+
+fieldset{
+	border: 1px solid #48C9B0  ;
+	margin: 10px;
+	padding-top: 10px;
+}
+
+fieldset #p_add, fieldset #l_add{
+	border: 1px solid white;
+}
+
+.btn{
+	position: relative;
+	text-align: center;
+}
+.button {
+	position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  vertical-align: center;
+ }
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.error{
+	margin-left: 150px;
+	font-size: 15px;
+	font-style: italic;
+	color: red;
+	visibility: visible;
+}
